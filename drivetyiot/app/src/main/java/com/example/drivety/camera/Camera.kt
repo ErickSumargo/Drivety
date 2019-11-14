@@ -1,4 +1,4 @@
-package com.example.drivetyiot.camera
+package com.example.drivety.camera
 
 import android.content.Context
 import android.graphics.ImageFormat
@@ -13,23 +13,19 @@ import java.util.*
  * Created by ericksumargo on 01/11/19
  */
 
-class Camera {
+class Camera(
+    val context: Context,
+    val listener: CameraListener
+) {
     private val TAG: String = Camera::class.java.simpleName
 
     private var id: String? = null
     private val handler: HandlerThread = HandlerThread("")
 
-    private lateinit var context: Context
     private lateinit var camera: CameraDevice
     private lateinit var manager: CameraManager
     private lateinit var session: CameraCaptureSession
-    private lateinit var listener: CameraListener
     private lateinit var reader: ImageReader
-
-    fun Camera(context: Context, listener: CameraListener) {
-        this.context = context
-        this.listener = listener
-    }
 
     fun setup() {
         // Initialize CameraManager

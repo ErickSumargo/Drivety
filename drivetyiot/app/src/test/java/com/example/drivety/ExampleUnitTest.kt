@@ -1,4 +1,4 @@
-package com.example.drivetyiot
+package com.example.drivety
 
 import org.junit.Test
 

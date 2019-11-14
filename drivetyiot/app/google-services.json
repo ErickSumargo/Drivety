@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "284916015479",
+    "firebase_url": "https://drivety-1a1dc.firebaseio.com",
+    "project_id": "drivety-1a1dc",
+    "storage_bucket": "drivety-1a1dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284916015479:android:a07ff85708ce5c65914172",
+        "android_client_info": {
+          "package_name": "com.example.drivety"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "284916015479-0oimtj0la57b7tck1sg78siee4uhfp44.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCK9_OdGm2Dnqtr9uywtI19MkMyWyHXKsE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "284916015479-0oimtj0la57b7tck1sg78siee4uhfp44.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,7 +1,7 @@
-package com.example.drivetyiot
+package com.example.drivety
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 
 /**
  * Skeleton of an Android Things activity.

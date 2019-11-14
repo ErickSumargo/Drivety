@@ -1,6 +1,10 @@
-package com.example.drivetyiot.camera
+package com.example.drivety.camera
 
 import android.media.ImageReader
+
+/**
+ * Created by ericksumargo on 01/11/19
+ */
 
 interface CameraListener {
     fun onCameraAvailable()
