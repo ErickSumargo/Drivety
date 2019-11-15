@@ -4,6 +4,10 @@ import android.view.View
 import androidx.navigation.Navigation
 import com.example.drivety.R
 
+/**
+ * Created by ericksumargo on 01/11/19
+ */
+
 object Navigation {
 
     fun navigateToSeatbeltScreen(): View.OnClickListener {

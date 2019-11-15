@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity(),
     }
 
     /**
-     * Support actionBar with fragment name
+     * Support ActionBar with fragment name
      */
 
     private fun setupActionBar() {
@@ -71,12 +71,12 @@ class MainActivity : AppCompatActivity(),
     }
 
     /**
-     * Support navigate up
+     * Support NavigateUp
      */
 
     override fun onSupportNavigateUp(): Boolean {
-        return findNavController(R.id.navHost).navigateUp(appBarConfiguration)
-                || super.onSupportNavigateUp()
+        return super.onSupportNavigateUp()
+                || findNavController(R.id.navHost).navigateUp(appBarConfiguration)
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {

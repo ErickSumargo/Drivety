@@ -27,7 +27,7 @@ class Bluetooth(
     }
 
     fun scan(requestCode: Int) {
-        bluetoothConnection.scan(requestCode)
+        // bluetoothConnection.scan(requestCode)
     }
 
     fun connect(macAddress: String) {

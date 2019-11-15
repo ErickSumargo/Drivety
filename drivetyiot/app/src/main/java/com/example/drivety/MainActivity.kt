@@ -94,8 +94,8 @@ class MainActivity : AppCompatActivity(),
 
         val payload = Payload(images, title, description, coordinates)
         /**
-         * if (Drivety app is in bluetooth range) { bluetooth.sendNotification(payload) }
-         * else { FirebaseManager.sendNotification(payload) }
+         * if Drivety app is in bluetooth range, bluetooth.sendNotification(payload)
+         * else, FirebaseManager.sendNotification(payload)
          */
     }
 

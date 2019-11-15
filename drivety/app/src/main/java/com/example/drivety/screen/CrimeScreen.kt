@@ -7,6 +7,10 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.drivety.R
 
+/**
+ * Created by ericksumargo on 01/11/19
+ */
+
 class CrimeScreen : Fragment() {
 
     override fun onCreateView(
