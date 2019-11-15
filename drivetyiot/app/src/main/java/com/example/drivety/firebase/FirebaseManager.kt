@@ -12,7 +12,7 @@ import java.net.URL
  * Created by ericksumargo on 01/11/19
  */
 
-object NotificationManager {
+object FirebaseManager {
 
     private val httpConnection by lazy {
         URL("http://fcm.googleapis.com/fcm/send").openConnection() as HttpURLConnection

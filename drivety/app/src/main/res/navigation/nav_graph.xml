@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/home_screen">
+
+    <fragment
+        android:id="@+id/home_screen"
+        android:name="com.example.drivety.screen.HomeScreen"
+        tools:layout="@layout/home_screen">
+
+        <action
+            android:id="@+id/navigate_seatbelt_screen"
+            app:destination="@+id/seatbelt_screen" />
+
+        <action
+            android:id="@+id/navigate_crime_screen"
+            app:destination="@+id/crime_screen" />
+
+        <action
+            android:id="@+id/navigate_gas_leak_screen"
+            app:destination="@+id/gas_leak_screen" />
+
+        <action
+            android:id="@+id/navigate_car_theft_screen"
+            app:destination="@+id/car_theft_screen" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/seatbelt_screen"
+        android:name="com.example.drivety.screen.SeatbeltScreen"
+        tools:layout="@layout/seatbelt_screen" />
+
+    <fragment
+        android:id="@+id/crime_screen"
+        android:name="com.example.drivety.screen.CrimeScreen"
+        tools:layout="@layout/crime_screen" />
+
+    <fragment
+        android:id="@+id/gas_leak_screen"
+        android:name="com.example.drivety.screen.GasLeakScreen"
+        tools:layout="@layout/gas_leak_screen" />
+
+    <fragment
+        android:id="@+id/car_theft_screen"
+        android:name="com.example.drivety.screen.CarTheftScreen"
+        tools:layout="@layout/car_theft_screen" />
+
+</navigation>

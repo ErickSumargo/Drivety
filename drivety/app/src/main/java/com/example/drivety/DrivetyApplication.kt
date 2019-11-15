@@ -10,8 +10,18 @@ import com.google.firebase.messaging.FirebaseMessaging
 
 class DrivetyApplication : Application() {
 
+    init {
+        application = this
+    }
+
     override fun onCreate() {
         super.onCreate()
         FirebaseMessaging.getInstance().subscribeToTopic(Constant.FIREBASE_TOPIC)
+    }
+
+    companion object {
+        private var application: DrivetyApplication? = null
+
+        fun getContext() = application?.applicationContext
     }
 }

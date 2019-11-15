@@ -13,7 +13,6 @@ import com.example.drivety.bme280.BME280Listener
 import com.example.drivety.camera.Camera
 import com.example.drivety.camera.CameraListener
 import com.example.drivety.data.Payload
-import com.example.drivety.firebase.NotificationManager
 import com.example.drivety.tensorflow.TFLite
 import com.example.drivety.utils.toBitmap
 import com.example.drivety.utils.toByteBuffer
@@ -64,7 +63,6 @@ class MainActivity : AppCompatActivity(),
 
     private fun setupBluetooth() {
         bluetooth = Bluetooth(applicationContext, this, this)
-        bluetooth.build()
     }
 
     private fun setupTFLiteModel() {
@@ -90,11 +88,15 @@ class MainActivity : AppCompatActivity(),
     private fun sendNotification(prediction: Array<ByteArray>) {
         // Dummy parameters
         val images = listOf("car_outside.png", "car_inside.png")
+        val title = "Title"
         val description = prediction.toString()
         val coordinates = "longitude: 0.0f" to "latitude: 0.0f"
 
-        val payload = Payload(images, description, coordinates)
-        NotificationManager.sendNotification(payload)
+        val payload = Payload(images, title, description, coordinates)
+        /**
+         * if (Drivety app is in bluetooth range) { bluetooth.sendNotification(payload) }
+         * else { FirebaseManager.sendNotification(payload) }
+         */
     }
 
     /**

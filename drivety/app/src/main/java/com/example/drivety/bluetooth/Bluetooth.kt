@@ -6,7 +6,6 @@ import android.content.Context
 import com.devpaul.bluetoothutillib.SimpleBluetooth
 import com.devpaul.bluetoothutillib.utils.BluetoothUtility
 import com.devpaul.bluetoothutillib.utils.SimpleBluetoothListener
-import com.example.drivety.data.Payload
 
 /**
  * Created by ericksumargo on 01/11/19
@@ -27,8 +26,12 @@ class Bluetooth(
         connection
     }
 
-    fun sendNotification(data: Payload) {
-        bluetoothConnection.sendData(data.toString())
+    fun scan(requestCode: Int) {
+        bluetoothConnection.scan(requestCode)
+    }
+
+    fun connect(macAddress: String) {
+        bluetoothConnection.connectToBluetoothDevice(macAddress)
     }
 
     private val bluetoothCallback = object : SimpleBluetoothListener() {

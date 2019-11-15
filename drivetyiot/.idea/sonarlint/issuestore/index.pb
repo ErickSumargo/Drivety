@@ -41,3 +41,5 @@ g
 7app/src/main/java/com/example/drivety/utils/ImageExt.kt,4/a/4a6fe81835af75c6badcc35df1050946c3d79fa7
 e
 5app/src/main/java/com/example/drivety/MainActivity.kt,f/8/f82611661b8f73408b9bc8d3a3fbd7737261a474
+q
+Aapp/src/main/java/com/example/drivety/firebase/FirebaseManager.kt,5/d/5d57485a21b687de1395133613a3c8f59b0e24bd
