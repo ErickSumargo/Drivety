@@ -1,6 +1,11 @@
-# Drivety
+### <img src="showcase/logo.png" width="25%">'s System Flow
+___
+![](showcase/system.png)
+<br/>
+<br/>
 With the TensorFlow Lite models integrated, Smart App Drivety unlocks new experience where every car can have the same high-end security features now. Drivety offers:
-
+<br/>
+<br/>
 ## Seatbelt Worn Detection
 ### Problem:<br/>
 Some new cars have already been installed with seatbelt reminder detector, but the older one majorly hasn't. 
