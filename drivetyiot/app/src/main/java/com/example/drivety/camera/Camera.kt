@@ -17,8 +17,6 @@ class Camera(
     val context: Context,
     val listener: CameraListener
 ) {
-    private val TAG: String = Camera::class.java.simpleName
-
     private var id: String? = null
     private val handler: HandlerThread = HandlerThread("")
 
@@ -45,9 +43,10 @@ class Camera(
 
     fun open() {
         manager.openCamera(id.orEmpty(), cameraCallback, null)
+        takePicture()
     }
 
-    fun startCapturePicture() {
+    private fun startCapturePicture() {
         val builder = camera.createCaptureRequest(CameraDevice.TEMPLATE_STILL_CAPTURE)
         builder.addTarget(reader.surface)
         builder.set(CaptureRequest.CONTROL_AE_MODE, CaptureRequest.CONTROL_AE_MODE_ON)
@@ -55,12 +54,14 @@ class Camera(
         session.capture(builder.build(), captureCallback, null)
     }
 
-    fun takePicture() {
-        camera.createCaptureSession(
-            Collections.singletonList(reader.surface),
-            sessionCallback,
-            null
-        )
+    private fun takePicture() {
+        Handler().postDelayed({
+            camera.createCaptureSession(
+                Collections.singletonList(reader.surface),
+                sessionCallback,
+                null
+            )
+        }, FRAME_RATE)
     }
 
     private val cameraCallback = object : CameraDevice.StateCallback() {
@@ -107,8 +108,11 @@ class Camera(
     }
 
     companion object {
-        const val WIDTH: Int = 960
-        const val HEIGHT: Int = 480
-        const val MAX_IMAGES: Int = 1
+        private val TAG: String = Camera::class.java.simpleName
+
+        private const val WIDTH: Int = 960
+        private const val HEIGHT: Int = 480
+        private const val MAX_IMAGES: Int = 1
+        private const val FRAME_RATE: Long = 1 * 1000L // in ms
     }
 }
