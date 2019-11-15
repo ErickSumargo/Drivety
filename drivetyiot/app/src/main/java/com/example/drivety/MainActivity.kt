@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity(),
     private fun setupBME280() {
         bme280 = BME280(applicationContext, this)
         bme280.setup()
-        bme280.registerSensor()
+        bme280.registerSensors()
     }
 
     private fun setupBluetooth() {
@@ -161,7 +161,7 @@ class MainActivity : AppCompatActivity(),
     }
 
     override fun onDestroy() {
-        bme280.unregisterSensor()
+        bme280.unregisterSensors()
         super.onDestroy()
     }
 

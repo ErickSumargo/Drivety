@@ -26,14 +26,14 @@ class BME280(
         sensorManager.registerDynamicSensorCallback(sensorCallback)
     }
 
-    fun registerSensor() {
+    fun registerSensors() {
         sensorDriver = Bmx280SensorDriver(BoardPins.getSDAPin())
         sensorDriver.registerTemperatureSensor()
         sensorDriver.registerPressureSensor()
         sensorDriver.registerHumiditySensor()
     }
 
-    fun unregisterSensor() {
+    fun unregisterSensors() {
         sensorDriver.unregisterTemperatureSensor()
         sensorDriver.unregisterPressureSensor()
         sensorDriver.unregisterHumiditySensor()
