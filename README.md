@@ -42,7 +42,7 @@ Drivety will take role to detect if any of those crime potential to be happened 
 ### Problem:<br/>
 Once we’re outside of the car, no one guarantees what an unexpected thing is going to potentially happen inside. Take an example, there are numerous incidents where kids died after their family left them either for a while even hours inside the car. Turns out heatstroke or accumulated leaked **Carbon Monoxide (CO)** gas came through ventilation are the major cause.
 
-With the heat and air quality sensor installed on the IoT device, Drivety immediately sends notification to the car owner, nearby Drivety users or authority in charge for early rescue.
+With the heat temperature and air quality sensor installed on the IoT device, Drivety immediately sends notification to the car owner, nearby Drivety users or authority in charge for early rescue.
 
 Drivety is also integrated with smart detection to detect if any visible smoke surrounding inside car.
 <br/>
