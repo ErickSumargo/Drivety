@@ -41,3 +41,8 @@ e
 5app/src/main/java/com/example/drivety/MainActivity.kt,f/8/f82611661b8f73408b9bc8d3a3fbd7737261a474
 q
 Aapp/src/main/java/com/example/drivety/firebase/FirebaseManager.kt,5/d/5d57485a21b687de1395133613a3c8f59b0e24bd
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+>
+app/.gitignore,5/1/51e1c5d383dfaa35e0e7e5873a0a99355a86880f
