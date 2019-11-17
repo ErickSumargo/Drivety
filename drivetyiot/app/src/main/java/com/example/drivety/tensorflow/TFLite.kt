@@ -34,6 +34,10 @@ class TFLite(val context: Context) {
             .build()
     }
 
+    /**
+     * Use local models if internet connection is poor.
+     */
+
     fun createLocalModelInterpreter(): FirebaseModelInterpreter {
         val localModelName =
             context.resources.assets.list("")?.firstOrNull { it.endsWith(".tflite") }
@@ -45,6 +49,10 @@ class TFLite(val context: Context) {
         )!!
         return localIntepreter
     }
+
+    /**
+     * Download remote models to keep local latest.
+     */
 
     suspend fun createRemoteModelInterpreter(): FirebaseModelInterpreter {
         return suspendCancellableCoroutine { cont ->

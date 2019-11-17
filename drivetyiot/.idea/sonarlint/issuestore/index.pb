@@ -35,8 +35,6 @@ j
 :app/src/main/java/com/example/drivety/tensorflow/TFLite.kt,4/3/43720ce652bf0d0fc21508714da021b5b76fcd67
 g
 7app/src/main/java/com/example/drivety/utils/Constant.kt,7/9/79498766636ef0d1dfc9368da0c9cbb91e19c517
-u
-Eapp/src/main/java/com/example/drivety/firebase/NotificationManager.kt,0/d/0db496a011b6d8f32f9592f65870cbb49c7b5d68
 g
 7app/src/main/java/com/example/drivety/utils/ImageExt.kt,4/a/4a6fe81835af75c6badcc35df1050946c3d79fa7
 e
