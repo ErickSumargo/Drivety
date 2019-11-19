@@ -13,6 +13,7 @@ import com.example.drivety.bme280.BME280Listener
 import com.example.drivety.camera.Camera
 import com.example.drivety.camera.CameraListener
 import com.example.drivety.data.Payload
+import com.example.drivety.face.FaceFrameDetector
 import com.example.drivety.tensorflow.TFLite
 import com.example.drivety.utils.toBitmap
 import com.example.drivety.utils.toByteBuffer
@@ -34,6 +35,7 @@ class MainActivity : AppCompatActivity(),
     private lateinit var camera: Camera
     private lateinit var bme280: BME280
     private lateinit var bluetooth: Bluetooth
+    private lateinit var faceDetector:FaceFrameDetector
 
     private lateinit var tFLite: TFLite
     private lateinit var modelInterpreter: FirebaseModelInterpreter
@@ -45,7 +47,7 @@ class MainActivity : AppCompatActivity(),
         setupCamera()
         setupBME280()
         setupBluetooth()
-
+        setupFaceDetector()
         setupTFLiteModel()
     }
 
@@ -63,6 +65,10 @@ class MainActivity : AppCompatActivity(),
 
     private fun setupBluetooth() {
         bluetooth = Bluetooth(applicationContext, this, this)
+    }
+
+    private fun setupFaceDetector() {
+        faceDetector = FaceFrameDetector(applicationContext)
     }
 
     private fun setupTFLiteModel() {
@@ -111,6 +117,7 @@ class MainActivity : AppCompatActivity(),
         Log.d(TAG, "Image Ready")
 
         val bitmap = reader.toBitmap()
+        /** Detect faces: val faces = faceDetector.detect(bitmap) */
         predictActivity(bitmap)
     }
 
