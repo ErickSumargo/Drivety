@@ -80,7 +80,7 @@ Drivety is also integrated with smart detection to detect if any visible smoke s
 ### Problem:<br/>
 Sure this is everyday common problem 😨.
 
-Drivety will detect and immediately sends payload notification to the car owner confirming the car is being driven by an unrecognized usual driver. If owner confirms ​**“REPORT”​**, Drivety immediately forwards the payload emergency notification to the authority in charge for early action.
+Drivety will detect and immediately sends payload notification to the car owner confirming the car is being driven by an unrecognized usual driver. If owner confirms ​**“REPORT”​**, Drivety immediately forwards the emergency notification to the authority in charge for early action.
 <br/>
 <br/>
 **Android Things:**
