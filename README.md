@@ -3,10 +3,10 @@ ___
 ![](showcase/system.png)
 <br/>
 <br/>
-With the **TensorFlow Lite models** integrated, Smart App Drivety unlocks new experience where every car can have the same high-end security features now. Drivety offers:
+With the **Mobile Vision API** and **TensorFlow Lite models** integrated, Smart App Drivety unlocks new experience where every car can have the same high-end surveillance security features now. Drivety offers:
 <br/>
 <br/>
-## Seatbelt Worn Detection
+## Wearing Seatbelt Detection
 ### Problem:<br/>
 Some new cars have already been installed with seatbelt reminder detector, but the older one majorly hasn't. 
 
@@ -16,7 +16,7 @@ Drivety will act as that reminder but with more informative interface to increas
 **Android Things:**
 <br/>
 <br/>
-<center><img src="showcase/f1.png" width="80%"></center>
+<center><img src="showcase/iot1.png" width="80%"></center>
 <br/>
 <br/>
 
@@ -35,7 +35,7 @@ Drivety will take role to detect if any of those crime potential to be happened 
 **Android Things:**
 <br/>
 <br/>
-<center><img src="showcase/f2.png" width="80%"></center>
+<center><img src="showcase/iot2.png" width="80%"></center>
 <br/>
 <br/>
 
@@ -56,7 +56,7 @@ Drivety is also integrated with smart detection to detect if any visible smoke s
 **Android Things (Visible Smoke):**
 <br/>
 <br/>
-<center><img src="showcase/f3_1.png" width="80%"></center>
+<center><img src="showcase/iot3_1.png" width="80%"></center>
 <br/>
 <br/>
 
@@ -67,7 +67,7 @@ Drivety is also integrated with smart detection to detect if any visible smoke s
 **Android Things (Heatstroke):**
 <br/>
 <br/>
-<center><img src="showcase/f3_2.png" width="80%"></center>
+<center><img src="showcase/iot3_2.png" width="80%"></center>
 <br/>
 <br/>
 
@@ -78,15 +78,15 @@ Drivety is also integrated with smart detection to detect if any visible smoke s
 
 ## Potential Car Theft Detection
 ### Problem:<br/>
-Sure this is a common problem 😨.
+Sure this is everyday common problem 😨.
 
-Drivety will detect and immediately send payload notification to the car owner confirming the car is being driven by an unrecognized usual driver. If owner confirms ​**“REPORT”​**, Drivety immediately forwards the payload emergency notification to the authority in charge for early action.
+Drivety will detect and immediately sends payload notification to the car owner confirming the car is being driven by an unrecognized usual driver. If owner confirms ​**“REPORT”​**, Drivety immediately forwards the payload emergency notification to the authority in charge for early action.
 <br/>
 <br/>
 **Android Things:**
 <br/>
 <br/>
-<center><img src="showcase/f4.png" width="80%"></center>
+<center><img src="showcase/iot4.png" width="80%"></center>
 <br/>
 <br/>
 
