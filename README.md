@@ -30,6 +30,8 @@ Drivety will act as that reminder but with more informative interface to increas
 On-demand transportation services, e.g. Uber, Grab, Gojek, etc grow rapidly. Meanwhile the related crime rate (attempted rape and murder) increases respectively.
 
 Drivety will take role to detect if any of those crime potential to be happened by sending payload (driver face, vehicle registration plate, latest Google Maps coordinate, etc) emergency notification immediately to the authority in charge and nearby Drivety users for early rescue.
+
+Potential victim user can also special trigger this feature by shouting: ​**“Drivety Help!”​**.
 <br/>
 <br/>
 **Android Things:**
