@@ -3,7 +3,7 @@ ___
 ![](showcase/system.png)
 <br/>
 <br/>
-With the **Mobile Vision API** and **TensorFlow Lite models** integrated, Smart App Drivety unlocks new experience where every car can have the same high-end surveillance security features now. Drivety offers:
+With the **Mobile Vision API** and **TensorFlow Lite models** integrated, Smart App Assistant Drivety unlocks new experience where every car can have the same high-end surveillance security features now. Drivety offers:
 <br/>
 <br/>
 ## Wearing Seatbelt Detection
