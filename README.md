@@ -1,4 +1,4 @@
-### <img src="showcase/logo.png" width="25%">'s System Flow
+### <img src="showcase/logo.png" width="50%">
 ___
 ![](showcase/system.png)
 <br/>
@@ -10,7 +10,7 @@ With the **TensorFlow Lite models** integrated, Smart App Drivety unlocks new ex
 ### Problem:<br/>
 Some new cars have already been installed with seatbelt reminder detector, but the older one majorly hasn't. 
 
-Drivety will act as that reminder but with more informative interface to increase awareness of some ignorant passengers while their safety is at risk than emitted **“Beep”** boring notification sound.
+Drivety will act as that reminder but with more informative interface to increase awareness of some ignorant passengers while their safety is at risk rather than emitted **“Beep”** boring notification sound like in some common cars.
 <br/>
 <br/>
 **Android Things:**
@@ -21,12 +21,15 @@ Drivety will act as that reminder but with more informative interface to increas
 <br/>
 
 **Mobile App:**
+<center><img src="showcase/mobile1.png" width="50%"></center>
+<br/>
+<br/>
 
 ## Crime Detection
 ### Problem:<br/>
 On-demand transportation services, e.g. Uber, Grab, Gojek, etc grow rapidly. Meanwhile the related crime rate (attempted rape and murder) increases respectively.
 
-Drivety will take role to detect if any of those crime potential to be happened by sending payload (driver face, vehicle registration plate, latest Google Maps coordinate, etc) notification immediately to the authority in charge and nearby Drivety users for early rescue.
+Drivety will take role to detect if any of those crime potential to be happened by sending payload (driver face, vehicle registration plate, latest Google Maps coordinate, etc) emergency notification immediately to the authority in charge and nearby Drivety users for early rescue.
 <br/>
 <br/>
 **Android Things:**
@@ -37,12 +40,15 @@ Drivety will take role to detect if any of those crime potential to be happened 
 <br/>
 
 **Mobile App:**
+![](showcase/mobile2.png)
+<br/>
+<br/>
 
 ## Visible Smoke, Heatstroke & Dangerous Chemical Gas Leak Detection
 ### Problem:<br/>
 Once we’re outside of the car, no one guarantees what an unexpected thing is going to potentially happen inside. Take an example, there are numerous incidents where kids died after their family left them either for a while even hours inside the car. Turns out heatstroke or accumulated leaked **Carbon Monoxide (CO)** gas came through ventilation are the major cause.
 
-With the heat temperature and air quality sensor installed on the IoT device, Drivety immediately sends notification to the car owner, nearby Drivety users or authority in charge for early rescue.
+With the heat temperature and air quality sensor installed on the IoT device, Drivety immediately sends emergency notification to the car owner, nearby Drivety users or authority in charge for early rescue.
 
 Drivety is also integrated with smart detection to detect if any visible smoke surrounding inside car.
 <br/>
@@ -55,6 +61,7 @@ Drivety is also integrated with smart detection to detect if any visible smoke s
 <br/>
 
 **Mobile App (Visible Smoke):**
+![](showcase/mobile3_1.png)
 <br/>
 <br/>
 **Android Things (Heatstroke):**
@@ -65,12 +72,15 @@ Drivety is also integrated with smart detection to detect if any visible smoke s
 <br/>
 
 **Mobile App (Heatstroke):**
+![](showcase/mobile3_2.png)
+<br/>
+<br/>
 
 ## Potential Car Theft Detection
 ### Problem:<br/>
 Sure this is a common problem 😨.
 
-Drivety will detect and immediately send payload notification to the car owner confirming the car is being driven by an unrecognized usual driver. If owner confirms ​**“REPORT”​**, Drivety immediately forwards the payload notification to the authority in charge for early action.
+Drivety will detect and immediately send payload notification to the car owner confirming the car is being driven by an unrecognized usual driver. If owner confirms ​**“REPORT”​**, Drivety immediately forwards the payload emergency notification to the authority in charge for early action.
 <br/>
 <br/>
 **Android Things:**
@@ -81,6 +91,9 @@ Drivety will detect and immediately send payload notification to the car owner c
 <br/>
 
 **Mobile App:**
+![](showcase/mobile4.png)
+<br/>
+<br/>
 
 There are a lot of other features we can integrate inside Drivety actually, say:
 - **Oil & Fuel Management Prediction Based Distance Record by Google Maps.**

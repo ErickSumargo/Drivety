@@ -6,6 +6,10 @@ import android.graphics.drawable.BitmapDrawable
 import com.google.android.gms.vision.Frame
 import com.google.android.gms.vision.face.FaceDetector
 
+/**
+ * Created by ericksumargo on 01/11/19
+ */
+
 class FaceFrameDetector(val context: Context) {
 
     private lateinit var canvas: Canvas

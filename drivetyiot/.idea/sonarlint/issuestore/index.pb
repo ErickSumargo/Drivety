@@ -46,3 +46,5 @@ Aapp/src/main/java/com/example/drivety/firebase/FirebaseManager.kt,5/d/5d57485a
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
 >
 app/.gitignore,5/1/51e1c5d383dfaa35e0e7e5873a0a99355a86880f
+o
+?app/src/main/java/com/example/drivety/face/FaceFrameDetector.kt,2/1/214b6acfc0f149b020b6f2ce65783a797a5132f4
