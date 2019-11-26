@@ -10,18 +10,18 @@ With the **Mobile Vision API** and **TensorFlow Lite models** integrated, Smart 
 ### Problem:<br/>
 Some new cars have already been installed with seatbelt reminder detector, but the older one majorly hasn't. 
 
-Drivety will act as that reminder but with more informative interface to increase awareness of some ignorant passengers while their safety is at risk rather than emitted **“Beep”** boring notification sound like in some common cars.
+Drivety will act as that reminder but with more informative interface to increase awareness of some ignorant passengers while their safety is at risk rather than **“Beep”** boring notification sound emission like in some common cars.
 <br/>
 <br/>
 **Android Things:**
 <br/>
 <br/>
-<center><img src="showcase/iot1.png" width="80%"></center>
+![](showcase/iot1.png)
 <br/>
 <br/>
 
 **Mobile App:**
-<center><img src="showcase/mobile1.png" width="50%"></center>
+![](showcase/mobile1.png)
 <br/>
 <br/>
 
@@ -37,7 +37,7 @@ Potential victim user can also special trigger this feature by shouting: ​**Dr
 **Android Things:**
 <br/>
 <br/>
-<center><img src="showcase/iot2.png" width="80%"></center>
+![](showcase/iot2.png)
 <br/>
 <br/>
 
@@ -58,7 +58,7 @@ Drivety is also integrated with smart detection to detect if any visible smoke s
 **Android Things (Visible Smoke):**
 <br/>
 <br/>
-<center><img src="showcase/iot3_1.png" width="80%"></center>
+![](showcase/iot3_1.png)
 <br/>
 <br/>
 
@@ -69,7 +69,7 @@ Drivety is also integrated with smart detection to detect if any visible smoke s
 **Android Things (Heatstroke):**
 <br/>
 <br/>
-<center><img src="showcase/iot3_2.png" width="80%"></center>
+![](showcase/iot3_2.png)
 <br/>
 <br/>
 
@@ -88,7 +88,7 @@ Drivety will detect and immediately sends payload notification to the car owner 
 **Android Things:**
 <br/>
 <br/>
-<center><img src="showcase/iot4.png" width="80%"></center>
+![](showcase/iot4.png)
 <br/>
 <br/>
 
