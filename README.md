@@ -21,7 +21,9 @@ Drivety will act as that reminder but with more informative interface to increas
 <br/>
 
 **Mobile App:**
-![](showcase/mobile1.png)
+<br/>
+<br/>
+<p align="center"><img src="showcase/mobile1.png"></p>
 <br/>
 <br/>
 
