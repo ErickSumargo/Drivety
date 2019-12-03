@@ -16,7 +16,7 @@ Drivety will act as that reminder but with more informative interface to increas
 **Android Things:**
 <br/>
 <br/>
-![](showcase/iot1.png)
+<p align="center"><img src="showcase/iot1.png" width="80%"></p>
 <br/>
 <br/>
 
@@ -39,7 +39,7 @@ Potential victim user can also special trigger this feature by shouting: ​**Dr
 **Android Things:**
 <br/>
 <br/>
-![](showcase/iot2.png)
+<p align="center"><img src="showcase/iot2.png" width="80%"></p>
 <br/>
 <br/>
 
@@ -60,7 +60,7 @@ Drivety is also integrated with smart detection to detect if any visible smoke s
 **Android Things (Visible Smoke):**
 <br/>
 <br/>
-![](showcase/iot3_1.png)
+<p align="center"><img src="showcase/iot3_1.png" width="80%"></p>
 <br/>
 <br/>
 
@@ -71,7 +71,7 @@ Drivety is also integrated with smart detection to detect if any visible smoke s
 **Android Things (Heatstroke):**
 <br/>
 <br/>
-![](showcase/iot3_2.png)
+<p align="center"><img src="showcase/iot3_2.png" width="80%"></p>
 <br/>
 <br/>
 
@@ -90,7 +90,7 @@ Drivety will detect and immediately sends payload notification to the car owner 
 **Android Things:**
 <br/>
 <br/>
-![](showcase/iot4.png)
+<p align="center"><img src="showcase/iot4.png" width="80%"></p>
 <br/>
 <br/>
 
@@ -109,4 +109,3 @@ With the above feature showcases, we understand the Drivety’s IoT companion de
 - Turning Smartphone into Hotspot itself,
 - Some portable Wi-Fi devices, e.g., Vinli Wi-Fi Smart Car Connector and OBD-II,
 - etc...
-
